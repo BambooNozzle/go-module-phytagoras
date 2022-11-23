@@ -9,5 +9,5 @@ const (
 func FindC(a float64, b float64) float64 {
 	aSqr := math.Pow(a, powerOfTwo)
 	bSqr := math.Pow(b, powerOfTwo)
-	return math.Sqrt(aSqr * bSqr)
+	return math.Sqrt(aSqr + bSqr)
 }
